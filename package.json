@@ -1,0 +1,30 @@
+{
+  "name": "grunt-scratchy",
+  "description": "Interface to the scratchy documenetation extractor",
+  "version": "0.5.0",
+  "homepage": "https://github.com/rashidkpc/grunt-scratchy",
+  "author": {
+    "name": "Rashid Khan",
+    "url": "https://github.com/rashidkpc/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rashidkpc/grunt-scratchy.git"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "scratchy": "git://github.com/rashidkpc/scratchy.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-clean": "~0.5.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readmeFilename": "README.md"
+}
