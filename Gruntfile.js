@@ -58,7 +58,7 @@ module.exports = function(grunt) {
      *
      * ## Example usage
      *
-     * <code>
+     * <pre>
      * scratchy: {
      *   docs: {
      *     src: ['**\/*.js'],
@@ -69,7 +69,7 @@ module.exports = function(grunt) {
      *     }
      *   }
      * }
-     * <code>
+     * <pre>
      */
     scratchy: {
       docs: {

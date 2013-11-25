@@ -25,7 +25,7 @@ A grunt module for the scratchy document extractor.
 
 ## Example usage
 
-<code>
+<pre>
 scratchy: {
   docs: {
     src: ['**/*.js'],
@@ -36,4 +36,4 @@ scratchy: {
     }
   }
 }
-<code>
+<pre>
