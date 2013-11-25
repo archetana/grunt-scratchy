@@ -69,7 +69,7 @@ module.exports = function(grunt) {
      *     }
      *   }
      * }
-     * <pre>
+     * </pre>
      */
     scratchy: {
       docs: {
