@@ -55,6 +55,8 @@ module.exports = function(grunt) {
      *  - Extension, with leading dot, to add to exported documents
      * - unslash // default: N/A
      *  - Turn \/ into /
+     * - annotate // default: N/A
+     *  - Comment the end of section with file and line numbers
      *
      * ## Example usage
      *
@@ -65,7 +67,8 @@ module.exports = function(grunt) {
      *     dest: 'docs',
      *     options: {
      *       unslash: true,
-     *       extension: '.md'
+     *       extension: '.md',
+     *       annotate: '//'
      *     }
      *   }
      * }
@@ -77,7 +80,8 @@ module.exports = function(grunt) {
         dest: '.',
         options: {
           unslash: true,
-          extension: '.md'
+          extension: '.md',
+          annotate: '//'
         }
       }
     }

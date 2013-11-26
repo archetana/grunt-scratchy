@@ -22,6 +22,8 @@ A grunt module for the scratchy document extractor.
  - Extension, with leading dot, to add to exported documents
 - unslash // default: N/A
  - Turn / into /
+- annotate // default: N/A
+ - Comment the end of section with file and line numbers
 
 ## Example usage
 
@@ -32,7 +34,8 @@ scratchy: {
     dest: 'docs',
     options: {
       unslash: true,
-      extension: '.md'
+      extension: '.md',
+      annotate: '//'
     }
   }
 }
