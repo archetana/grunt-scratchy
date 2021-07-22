@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rashidkpc/grunt-scratchy.git"
+    "url": "git://github.com/archetana/grunt-scratchy.git"
   },
   "main": "Gruntfile.js",
   "engines": {
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "scratchy": "git://github.com/rashidkpc/scratchy.git"
+    "scratchy": "git://github.com/archetana/scratchy.git"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
