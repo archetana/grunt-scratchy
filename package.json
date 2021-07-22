@@ -16,7 +16,7 @@
     "node": ">= 0.8.0"
   },
   "dependencies": {
-    "scratchy": "git://github.com/archetana/scratchy.git"
+    "scratchy": "https://github.com/archetana/scratchy.git"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
